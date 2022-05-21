@@ -36,7 +36,7 @@ def main():
 
 	if choice == "Home":
 		
-		st.title("Emotion Clasifier")
+		st.title("Emotion Classifier")
 
 		with st.form(key='emotion_clf_form'):
 			raw_text = st.text_area("Type Here")
